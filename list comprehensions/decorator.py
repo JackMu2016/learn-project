@@ -61,3 +61,15 @@ def now3():
 print now3()
 
 
+# 偏函数:把一个函数的某些参数给固定住（也就是设置默认值）
+# 返回一个新的函数
+int2 = functools.partial(int, base=2)
+print(int2("1000000"))
+print(int2("1010101"))
+# 默认值也可在调用时传入其他值
+print(int2("1000000", base=10))
+
+
+
+
+
