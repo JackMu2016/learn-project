@@ -1,5 +1,7 @@
 # encoding=utf-8
+import sp
 import functools
+sp.Decimal
 
 
 def now():
